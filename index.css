@@ -1,0 +1,78 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  width: 100%; /* Ensure the body and html take the full width */
+  height: 100%; /* Ensure the body and html take the full height */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+  overflow-y: auto;
+}
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #c4c4c4;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 30px 50px 15px;
+}
+.header-img {
+  width: 200px;
+}
+
+.profile-img {
+  width: 80px;
+  border-radius: 50%;
+}
+.post-header {
+  padding-left: 30px;
+}
+.header {
+  display: flex;
+  gap: 10px;
+  margin: 0;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.profiles-img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.post-one {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  width: 100%;
+}
+.location {
+  font-size: 14px;
+}
+span {
+  display: block;
+  margin-top: 5px;
+}
+.reaction {
+  width: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.post-likes {
+  margin: 0;
+  margin-top: 10px;
+  word-spacing: 10px;
+}
+b {
+  margin-right: 5px;
+}
+.liked {
+  background-color: red; /* Red background when double-clicked */
+  border-radius: 50%; /* Round the background to fit the heart */
+}
