@@ -62,8 +62,12 @@ span {
   margin-top: 30px;
   cursor: pointer;
   margin-right: 5px;
+  transition: transform 0.2s ease-in-out;
 }
-
+.reaction:hover {
+  background-color: rgba(36, 149, 255, 0.961);
+  transform: translateY(5px);
+}
 .post-likes {
   margin: 0;
   margin-top: 10px;
