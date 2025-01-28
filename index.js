@@ -66,7 +66,7 @@ for (let i = 0; i < posts.length; i++) {
   const likeIcon = document.getElementById(`like-icon-${i}`);
   const likeCount = document.getElementById(`like-count-${i}`);
   let hasLiked = false;
-  likeIcon.addEventListener("dblclick", function () {
+  likeIcon.addEventListener("click", function () {
     if (!hasLiked) {
       // Check if the heart is not liked yet
       likeIcon.classList.add("liked"); // Add red background (liked)

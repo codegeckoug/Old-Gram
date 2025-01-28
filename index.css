@@ -26,6 +26,7 @@ body {
 
 .profile-img {
   width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 .post-header {
@@ -40,6 +41,7 @@ body {
 }
 .profiles-img {
   width: 40px;
+  height: 40px;
   border-radius: 50%;
 }
 
@@ -65,7 +67,6 @@ span {
   transition: transform 0.2s ease-in-out;
 }
 .reaction:hover {
-  background-color: rgba(36, 149, 255, 0.961);
   transform: translateY(5px);
 }
 .post-likes {
